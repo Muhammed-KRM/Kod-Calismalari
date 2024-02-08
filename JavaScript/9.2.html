@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random foksiyonu</title>
+</head>
+<body>
+    <span id="rakam">   </span>
+    <br>
+<span id="sesli">   </span>
+<br>
+<span id="seslisay"> </span>
+<br>
+<span id="sessiz">   </span>
+    <script type="text/javascript">
+
+function rastgeleSesli() {
+
+
+    var number = Math.floor(Math.random()*8);
+
+    return number;
+
+}
+
+function rastgeleSessiz() {
+
+
+var number = Math.floor(Math.random()*21);
+
+return number;
+
+}
+
+function rastgeleRakam() {
+
+
+var number = Math.floor(Math.random()*10);
+
+return number;
+
+}
+var rastgeleSesli =rastgeleSesli();
+
+var operator = document.getElementById('sesli');
+var sesli=["a","e","ü","u","ı","i","o","ö"];
+operator.textContent=sesli[rastgeleSesli];
+
+var operator = document.getElementById('seslisay');
+var seslisay=["0","1","2","3","4","5","6","7"];
+operator.textContent=seslisay[rastgeleSesli];
+
+var operator = document.getElementById('sessiz');
+var sessiz=["b","c","ç","d","f","g","ğ","j","k","l","m","n","h","p","r","s","ş","z","t","y","v"];
+operator.textContent=sessiz[rastgeleSessiz()];
+
+
+var operator = document.getElementById('rakam');
+var dizi=["0","1","2","3","4","5","6","7","8","9"];
+operator.textContent=dizi[rastgeleRakam()];
+
+
+
+    </script>
+    
+</body>
+</html>

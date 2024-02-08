@@ -1,0 +1,4 @@
+﻿  uygulama6.c
+C:\Users\mamito\Desktop\c\Uygulama 6\Uygulama 6\uygulama6.c(8,7): warning C4101: 'notlar': yerel değişken başvurusu kaldırıldı
+C:\Users\mamito\Desktop\c\Uygulama 6\Uygulama 6\uygulama6.c(7,6): warning C4101: 'gun': yerel değişken başvurusu kaldırıldı
+  Uygulama 6.vcxproj -> C:\Users\mamito\Desktop\c\Uygulama 6\x64\Debug\Uygulama 6.exe

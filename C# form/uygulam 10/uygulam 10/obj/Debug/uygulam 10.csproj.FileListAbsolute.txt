@@ -1,0 +1,10 @@
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\bin\Debug\uygulam 10.exe.config
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\bin\Debug\uygulam 10.exe
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\bin\Debug\uygulam 10.pdb
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam 10.csproj.AssemblyReference.cache
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam_10.Form1.resources
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam_10.Properties.Resources.resources
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam 10.csproj.GenerateResource.cache
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam 10.csproj.CoreCompileInputs.cache
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam 10.exe
+C:\Users\mamito\Desktop\C# form\uygulam 10\uygulam 10\obj\Debug\uygulam 10.pdb

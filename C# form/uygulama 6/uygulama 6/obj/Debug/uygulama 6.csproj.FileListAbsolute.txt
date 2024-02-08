@@ -1,0 +1,10 @@
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\bin\Debug\uygulama 6.exe.config
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\bin\Debug\uygulama 6.exe
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\bin\Debug\uygulama 6.pdb
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama 6.csproj.AssemblyReference.cache
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama_6.Form1.resources
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama_6.Properties.Resources.resources
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama 6.csproj.GenerateResource.cache
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama 6.csproj.CoreCompileInputs.cache
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama 6.exe
+C:\Users\mamito\Desktop\C# form\uygulama 6\uygulama 6\obj\Debug\uygulama 6.pdb

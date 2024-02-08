@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" >
+        var dizi =new Array(10);
+
+        for(var i=0; i<dizi.length; i++) 
+        {
+dizi[i] = Math.floor(Math.random()*10000);
+
+        }
+        for(var i=0; i<dizi.length; i++) 
+        {
+            
+
+            dizi.sort();
+            document.write(dizi[i]+"<br>");
+           
+        }
+        document.write("en küçük: "+dizi[0]+"<br>");
+        document.write("en büyük: "+dizi[9]+"<br>");
+            
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\mamito\Desktop\c\a1\a1\bin\Debug\net6.0\a1.exe
+C:\Users\mamito\Desktop\c\a1\a1\bin\Debug\net6.0\a1.deps.json
+C:\Users\mamito\Desktop\c\a1\a1\bin\Debug\net6.0\a1.runtimeconfig.json
+C:\Users\mamito\Desktop\c\a1\a1\bin\Debug\net6.0\a1.dll
+C:\Users\mamito\Desktop\c\a1\a1\bin\Debug\net6.0\a1.pdb
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.AssemblyInfoInputs.cache
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.AssemblyInfo.cs
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.csproj.CoreCompileInputs.cache
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.dll
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\refint\a1.dll
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.pdb
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\a1.genruntimeconfig.cache
+C:\Users\mamito\Desktop\c\a1\a1\obj\Debug\net6.0\ref\a1.dll

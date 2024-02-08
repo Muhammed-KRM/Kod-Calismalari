@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vize final ortalaması</title>
+</head>
+<body>
+    <div>
+    <p>
+    <input type="text" id="vize1" placeholder="vize notu giriniz.">
+    </p>
+    <p>
+        <input type="text" id="final1" placeholder="final notu giriniz.">
+    </p>
+    <p>
+        <input type="button" value="hesapla" id="hesap" onclick="hesapla();">
+    </p>
+    <div id="serdar"></div>
+</div>
+
+    <script type="text/javascript">
+
+function hesapla() {
+
+var vize= document.getElementById("vize1").value;
+var final= document.getElementById("final1").value;
+
+if (vize<0 || vize>100)
+{
+window.alert("vize notunuz 0 dan küçük veya 100 den büyük olamaz");
+
+}
+
+else if (final<0|| final>100)
+{
+    window.alert("final notunuz 0 dan küçük veya 100 den büyük olamaz");
+
+}
+
+else
+{
+var durum="";
+var ortalama=(vize*0.4)+(final*0.6);
+if(ortalama>=50 && final>=50)
+{
+durum="Geçtiniz";
+
+}
+else if(ortalama>=50 && final<50)
+{
+
+    durum="final notu 50 den küçük olduğu için kaldınız";
+}
+
+else
+{
+    durum="ortalamznız notu 50 den küçük olduğu için kaldınız";
+}
+document.getElementById("serdar").innerHTML="ortalamanız: "+
+ ortalama + "<br>"+durum;
+
+}
+}
+
+    </script>
+        
+        
+</body>
+</html>

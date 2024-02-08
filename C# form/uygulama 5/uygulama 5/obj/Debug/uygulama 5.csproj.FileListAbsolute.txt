@@ -1,0 +1,5 @@
+C:\Users\mamito\Desktop\C# form\uygulama 5\uygulama 5\obj\Debug\uygulama 5.csproj.AssemblyReference.cache
+C:\Users\mamito\Desktop\C# form\uygulama 5\uygulama 5\obj\Debug\uygulama_5.Form1.resources
+C:\Users\mamito\Desktop\C# form\uygulama 5\uygulama 5\obj\Debug\uygulama_5.Properties.Resources.resources
+C:\Users\mamito\Desktop\C# form\uygulama 5\uygulama 5\obj\Debug\uygulama 5.csproj.GenerateResource.cache
+C:\Users\mamito\Desktop\C# form\uygulama 5\uygulama 5\obj\Debug\uygulama 5.csproj.CoreCompileInputs.cache

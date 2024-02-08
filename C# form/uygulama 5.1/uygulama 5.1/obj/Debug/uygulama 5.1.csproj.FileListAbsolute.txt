@@ -1,0 +1,10 @@
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\bin\Debug\uygulama 5.1.exe.config
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\bin\Debug\uygulama 5.1.exe
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\bin\Debug\uygulama 5.1.pdb
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama 5.1.csproj.AssemblyReference.cache
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama_5._1.Form1.resources
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama_5._1.Properties.Resources.resources
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama 5.1.csproj.GenerateResource.cache
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama 5.1.csproj.CoreCompileInputs.cache
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama 5.1.exe
+C:\Users\mamito\Desktop\C# form\uygulama 5.1\uygulama 5.1\obj\Debug\uygulama 5.1.pdb

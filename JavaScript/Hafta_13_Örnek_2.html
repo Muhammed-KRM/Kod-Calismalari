@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oyun</title>
+</head>
+<body>
+	<div id="game">
+		<h1>Dört İşlem Oyununa Hoşgeldiniz</h1>
+		<span id="number1">0</span>
+		<span id="operator">    </span>
+		<span id="number2">0</span>
+		<span>=</span>
+
+		<input type="text" id="sonuc">
+		<input type="button" id="cevap" value="Cevapla" onclick="">
+		
+		<div id="True">0</div>
+		<div id="False">0</div>
+		
+	</div>
+
+	<script type="text/javascript">
+		var number1, number2, operator, sonuc, cevap, True, False, dogru = 0, yanlis = 0;
+
+		number1 = document.getElementById("number1");
+		number2 = document.getElementById("number2");
+		operator = document.getElementById("operator");
+		sonuc = document.getElementById("sonuc");
+		cevap = document.getElementById("cevap");
+		True = document.getElementById("True");
+		False = document.getElementById("False");
+
+		function rastgelesayi(min, max) {
+			var number = Math.floor((Math.random() * (max - min+1)) + min);
+			return number;
+		}
+
+		function yenisoru() {
+			var dizi = ["+", "-", "*", "/"];
+			operator.textContent = dizi[rastgelesayi(0, 3)];
+			number1.textContent = rastgelesayi(0, 50);
+			number2.textContent = rastgelesayi(0, 50);
+
+			if (operator.textContent == "/") {
+				while (true) {
+					number2.textContent = rastgelesayi(0, 50);
+					if (number1.textContent % number2.textContent == 0) {
+						break;
+					}
+				}
+			}
+		}
+
+		window.onload = function () {
+			yenisoru();
+		}
+
+		cevap.onclick = function () {
+			var answer, n1, n2;
+
+			n1 = Number(number1.textContent);
+			n2 = Number(number2.textContent);
+
+			switch (operator.textContent) {
+				case '+': answer = n1 + n2; break;
+				case '-': answer = n1 - n2; break;
+				case '*': answer = n1 * n2; break;
+				case '/': answer = n1 / n2; break;
+				default: break;
+			}
+
+			if (sonuc.value == answer) {
+				dogru++;
+				True.textContent = dogru;
+			} else {
+				yanlis++;
+				False.textContent = yanlis;
+			}
+
+			yenisoru();
+		}
+	</script>
+</body>
+</html>

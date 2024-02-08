@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <p>
+                <input type="text" placeholder="vizeyi gir" id="vize">
+            </p>
+            <p>
+                <input type="text" placeholder="finali gir" id="final">
+            </p>
+            <p>
+                <input type="button" value="hesapla" id="tus1" onclick="ort()">
+            </p>
+            <div id="serdar"></div>
+        </div>
+        <script type="text/javascript">
+
+function ort()
+{
+    var vize = document.getElementById("vize").value;
+var final = document.getElementById("final").value;
+
+if (vize<0 || vize>100)
+{
+    window.alert("vize 0 dan küçük veya 100 den büyük olamaz");
+}
+else if (final<0 || final>100)
+{
+    window.alert("final 0 dan küçük veya 100 den büyük olamaz")
+}
+else
+{
+ort = ((vize*0.4)+(final*0.6))
+var durum = ""
+    if (ort>=50&&final>=50)
+    {
+durum="Geçtiniz"
+    }
+    else if(ort<50)
+    {
+durum="ortalamaile kaldınız"
+    }
+    else if(final<50)
+    {
+        durum="final 50 den az olduğu için kaldınız"
+    }
+
+ document.getElementById("serdar").innerHTML= "ortalamanız: "+ort+"<br>"+durum
+}
+}
+        </script>
+    </body>
+</html>

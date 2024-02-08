@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random foksiyonu</title>
+</head>
+<body>
+<span id="operator">   </span>
+    <script type="text/javascript">
+
+function rastgelesayi() {
+
+
+    var number = Math.floor(Math.random()*4);
+
+    return number;
+
+}
+var operator = document.getElementById('operator');
+var dizi=["+", "-","*","/"];
+operator.textContent=dizi[rastgelesayi()];
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.AssemblyInfoInputs.cache
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.AssemblyInfo.cs
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.csproj.CoreCompileInputs.cache
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\bin\Debug\net6.0\ders1.exe
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\bin\Debug\net6.0\ders1.deps.json
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\bin\Debug\net6.0\ders1.runtimeconfig.json
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\bin\Debug\net6.0\ders1.dll
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\bin\Debug\net6.0\ders1.pdb
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.dll
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\refint\ders1.dll
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.pdb
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ders1.genruntimeconfig.cache
+C:\Users\mamito\Desktop\c# derleri\ders1\ders1\obj\Debug\net6.0\ref\ders1.dll

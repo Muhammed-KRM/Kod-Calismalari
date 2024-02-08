@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="TR">
+<head>
+
+    <title>getelement fonksiyonu</title>
+</head>
+<body>
+    <p id="paragraf">isim soyad: muhammed kerem üstün</p>
+
+    <script type="text/javascript">
+
+
+    var tarih = new date();
+    var saat = tarih.getHours();
+
+document.write(tarih+"<br>");
+
+    if(saat<18){ 
+
+    document.write("iyi günler dileriz.");
+    }
+    else{
+
+    document.write("iyi akşamlar dileriz.");
+    }
+    var x=6;
+    var z="bilgisayar proğramcılığı";
+
+    document.getElementById("paragraf").innerHTML=z;
+
+
+    </script>
+</body>
+</html>

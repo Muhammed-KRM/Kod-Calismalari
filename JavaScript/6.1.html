@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+
+
+function kdv(tutar,kdv){return tutar= tutar+(tutar*(kdv/100))}
+document.write(kdv(200,5)+"<br>");
+
+/*********************************************************/
+
+
+function doviz(bakiye,doviz)
+{
+if (doviz=="dolar")
+{
+return bakiye*28;
+}
+else if(doviz=="sterlin")
+{
+    return bakiye*35;
+}
+else if(doviz=="euro")
+{
+    return bakiye*30;
+}
+
+
+}
+
+document.write("kur hesabı: "+doviz(100,"dolar")+"TL dir. <br>")
+document.write("kur hesabı: "+doviz(100,"sterlin")+"TL dir. <br>")
+document.write("kur hesabı: "+doviz(100,"euro")+"TL dir. <br>")
+
+
+
+/*************************************************/
+
+function kur2(kur,bakiye)
+{
+
+    switch(kur) {
+    case "dolar": return bakiye*28 
+    break;
+
+    case "sterlin": return bakiye*30
+    break;
+
+    case "euro": return bakiye*35
+    break;
+
+    default: document.write("düzgün değergin lan piç");
+    break;
+    }
+}
+
+document.write("Kur deneme: " +kur2("dolar",100)+"TL dir. <br>")
+document.write("Kur deneme: " +kur2("sterlin",100)+"TL dir. <br>")
+document.write("Kur deneme: " +kur2("euro",100)+"TL dir. <br>")
+   
+
+</script>
+
+</body>
+</html>
